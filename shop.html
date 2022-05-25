@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Poppins:wght@300&family=Sedgwick+Ave&display=swap"
+        rel="stylesheet">
+
+    <!--CSS STYLES-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+    <!--MASTER HEADER-->
+
+    <header id="master-header">
+
+        <!-- HEADER TOP -->
+        <div class="header-top">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+
+                    <div class="d-flex justify-content-between">
+                        <p class="header-paragraph-margin"><i class="fa fa-inbox" aria-hidden="true"></i>
+                            SUPPORT@COMPANY.COM</p>
+                        <p class="header-top-margin-left header-paragraph-margin"><i class="fa fa-phone"
+                                aria-hidden="true"></i> +639 199 696 969</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="header-paragraph-margin a-links-onhover no-border-top"><a>WISHLIST</a> <i class="fa fa-heart"
+                                aria-hidden="true"></i></p>
+                        <p class="header-top-margin-left header-paragraph-margin a-links-onhover no-border-top">CHECKOUT <i
+                                class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+                        <p class="header-top-margin-left header-paragraph-margin a-links-onhover no-border-top">MY ACCOUNT <i
+                                class="fa fa-user" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HEADER MIDDLE -->
+
+        <div class="header-middle">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <a class="logo-hover" href="index.html"><img class="img-margin" width="300" height="75"
+                                src="./assets/Logo.png" alt=""></a>
+                    </div>
+
+                    <div class="my-search-box col-sm-9">
+                        <form action="shop.html" class="menu-form">
+                            <input class="menu-form-input" type="text" placeholder="Search here..."
+                                class="form-control">
+                            <span><button type="submit" class="btn"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button></span>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HEADER BOTTOM-->
+        <div class="header-bottom">
+            <ul class="d-flex header-nav justify-content-center header-height">
+                <li><a class="a-links-onhover" href="index.html">Home</a></li>
+                <li><a class="header-nav-active">Shop</a></li>
+                <li><a class="a-links-onhover">Top Sellers</a></li>
+                <li><a class="a-links-onhover">Favorite</a></li>
+                <li><a class="a-links-onhover bg-warning text-dark" href="shop2.html">Sale</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <!-- SECTION -->
+    <section class="section-padding section-background">
+        <div class="container">
+            <blockquote class="blockquote text-center blockquote-style">
+                <p class="display-6"><span class="display-2">"</span>imong one stop home depot with no b<span class="fs-6">ad</span>s<span class="fs-6">tuff</span><span
+                        class="display-2">"</span></p>
+            </blockquote>
+        </div>
+    </section>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <!-- ASIDE FILTER -->
+
+            <aside class="col-4">
+                <div class="nav-sticky">
+                    <div>
+                        <h2 class="h2-style main-font display-6">FILTER BY //-----</h2>
+                    </div>
+
+                    <!--Categories-->
+
+
+                    <div class="card-wrapper main-font">
+
+                        <div class="categories-wrapper text-center my-2">
+                            <h3 class="pt-3">CATEGORIES</h3>
+                        </div>
+                        <li class="general-filter-wrapper filter-links-onhover aside-nav-active">
+                            <a>Wallpaper</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Bathroom</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Air Conditioner</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Lighting</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Home Decors</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Kitchen</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Building Materials</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Tools</a>
+                        </li>
+                    </div>
+
+                    <!--Brands-->
+
+                    <div class="card-wrapper main-font">
+
+                        <div class="categories-wrapper text-center my-2">
+                            <h3 class="pt-3">BRANDS</h3>
+                        </div>
+                        <li class="general-filter-wrapper filter-links-onhover aside-nav-active">
+                            <a>All Brands</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Canon</a>
+                        </li>
+                        <li class="general-filter-wrapper filter-links-onhover">
+                            <a>Fujidenzo</a>
+                        </li>
+                    </div>
+
+                </div>
+            </aside>
+
+
+
+            <!-- MAIN CONTENT -->
+
+            <main class="col-8">
+                <div class="row">
+                    <div class="d-flex justify-content-between main-part">
+                        <div class="main-part1-style">
+                            <p id="wallpaper">SHOWING 1-12 OF 3932 OF "WALLPAPER" PRODUCTS</p>
+                        </div>
+                        <div class="d-flex main-part2-style">
+                            <p>SORT BY:</p>
+                            <select data-select-like-alignement="never" class="category drop-select drop-down-style">
+                                <option value>Name</option>
+                                <option value="2">Price</option>
+                                <option value="3">Popularity</option>
+                                <option value="4">Total Sales</option>
+                                <option value="5">Ratings</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-wrapper main-font">
+
+                    <!--Card #1-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-1 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic S-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #2-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-2 mt-4">
+
+                                </div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-2</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #3-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-3 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic S-2</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #4-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-4 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #5-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-5 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #6-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-6 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #7-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-7 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #8-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-8 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #9-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-9 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #10-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-10 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #11-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-11 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card #12-->
+
+                    <div class="card px-4 border rounded">
+                        <div class="row pt-1">
+                            <div class="col-4 px-3">
+                                <div class="wp-img-style wp-img-12 mt-4"></div>
+                            </div>
+                            <div class="col-8 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4 class="fs-2 ">Mozaic IM-1</h4>
+                                        <p class="fs-4 fw-bold">2$</p>
+                                        <div class="d-flex">
+                                            <p class="card-text sub-font fs-5">Sizes:</p>
+                                            <div class="px-2">
+                                                <select class="">
+                                                    <option value="1">Small 5x5</option>
+                                                    <option value="2">Medium 8x8</option>
+                                                    <option value="3">Large 12x12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="sub-font fs-6 mb-4">Ratings:
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            (132)
+                                        </p>
+                                        <div>
+                                            <button class="btn p-0">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="fs-5 fw-bold">Description:</h3>
+                                        <p class="fs-6">Lorem itt temporaue, dolorinecessit, itaqusddsde consequuntur
+                                            repudiandae ipsum? Praesentium totam reprehenderit aliquam dolorem placeat.
+                                        </p>
+                                        <div class="text-center p-3 ">
+                                            <a>
+                                                <p class="see-more-style">See more
+                                                    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="container d-flex justify-content-center">
+                        <div class="d-flex">
+                            <button class="btn main-nav-lor w-25"> < </button> 
+                            <input class="form-control w-25" type="text" placeholder="/01/">
+                            <button class="btn main-nav-lor w-25"> > </button>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-light main-font">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-6 text-center">
+                    <h2 class="display-6">IMONGSTORE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laborum quis amet placeat quam
+                        illum magnam ab, beatae libero tempore praesentium optio atque autem.</p>
+                    <p>376 Something Street, George VIC 3601, Phillippines</p>
+                    <p>+639 699 696 969</p>
+                    <p>SUPPORT@IMONGSTORE.COM</p>
+                </div>
+                <div class="col-3">
+                    <h6 class="display-6">USEFUL LINKS</h6>
+                    <ul class="fs-5">
+                        <li>Privacy & Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Company Slogan</li>
+                        <li>Partnerships</li>
+                        <li>Legal contract</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h6 class="display-6">SHOPS</h6>
+                    <ul class="fs-5">
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Air Conditioner</a></li>
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Wallpapers</a></li>
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Lighting</a></li>
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Home Decors</a></li>
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Tools</a></li>
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Building Materials</a></li>
+                        <li><a class="a-links-onhover no-border-top" href="shop.html">Kitchen</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html
